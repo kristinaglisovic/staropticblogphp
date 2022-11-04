@@ -1,0 +1,96 @@
+/* your styles go here */
+body{
+    overflow-x: hidden;
+}
+
+.pozadina{
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: 0px 1px 10px rgba(255,255,255,0.2);
+}
+.uspesno{
+    border-color: #1c7430;
+}
+
+
+.novalid{
+    border-color: #bd081d;
+}
+
+.mali{
+    font-size: 13px ;
+}
+/*FORMA*/
+.login-form {
+    font-size: 15px;
+}
+.login-form form {
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+
+.auth{
+    background-image: url("../img/logreg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.maliFont{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+.postImg{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center center;
+}
+.relPosts{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .postImg{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .login-form {
+        width: 100% !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .maximize {
+        width:75% !important;
+        margin-right: 0 !important;
+    }
+    .relPosts{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .pomeri1{
+        margin:10px 0 7px 0;
+    }
+    .pomeri2{
+        margin-bottom: 10px;
+    }
+}
+
+
